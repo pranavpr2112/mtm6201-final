@@ -89,6 +89,32 @@ nav ul li a.activelink {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* General styling for contact links as buttons */
+.links {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077b5; /* LinkedIn blue */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.links.linkedin {
+    background-color: #0077b5; 
+}
+
+.links.behance {
+    background-color: #1769ff; 
+}
+
+.links.figma {
+    background-color: #f24e1e; 
+}
+
 p {
     font-size: 1.2em;
     margin: 0;
