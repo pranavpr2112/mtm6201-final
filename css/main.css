@@ -89,11 +89,11 @@ nav ul li a.activelink {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* General styling for contact links as buttons */
+
 .links {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #0077b5; /* LinkedIn blue */
+    background-color: #0077b5; 
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -208,7 +208,6 @@ button[type="submit"]:hover {
     background-color: #1e3358;
 }
 
-/* Responsive Styles */
 
 /* Tablet */
 @media (max-width: 1024px) {
